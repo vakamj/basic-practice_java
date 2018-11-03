@@ -1,11 +1,19 @@
 package ioexpertsdotcom.array;
 
+/**
+ *
+ */
 public class SimpleSummater implements IArraySummater {
-
-    public int sum(int[] array) {
+    /**
+     * sum of all the elements
+     *
+     * @param array array
+     * @return sum
+     */
+    public int sum(final int[] array) {
         int sum = 0;
-        for (int num : array) {
-            sum=sum+num;
+        for (int anArray : array) {
+            sum = sum + anArray;
         }
         return sum;
     }
