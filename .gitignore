@@ -1,4 +1,5 @@
-dea/
+trash/
+.idea/
 target/
 *.class
 *.jar
