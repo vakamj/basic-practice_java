@@ -1,4 +1,4 @@
-package ioexpertsdotcom.array;
+package com.tenExperts.array.exceptions;
 
 /**
  * exception situation
