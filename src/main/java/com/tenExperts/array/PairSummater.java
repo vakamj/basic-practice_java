@@ -1,12 +1,13 @@
-package ioexpertsdotcom.array;
+package com.tenExperts.array;
+
+import com.tenExperts.array.exceptions.ArraySummaterException;
 
 /**
- *
+ * class PairSummater
  */
 public class PairSummater implements IArraySummater {
     /**
      * max amount of pairs array
-     *
      * @param array array
      * @return sumElements
      * @throws ArraySummaterException exception
@@ -17,12 +18,10 @@ public class PairSummater implements IArraySummater {
             throw new ArraySummaterException("\n" +
                     "array length is not a multiple of two");
         }
-
         if (array.length == 0) {
             throw new ArraySummaterException("\n" +
                     "empty array");
         }
-
         int sumElements = array[0] + array[1];
         for (int i = 0; i < array.length / 2; i++) {
             if (sumElements < array[2 * i] + array[2 * i + 1]) {
