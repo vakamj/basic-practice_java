@@ -8,7 +8,6 @@ import static org.junit.Assert.assertEquals;
 public class PairSummaterTest {
     /**
      * max amount of pairs array with elements
-     *
      * @throws ArraySummaterException exception
      */
     @Test
