@@ -18,7 +18,6 @@ public class PairSummaterTest {
 
     /**
      * empty array
-     *
      * @throws ArraySummaterException exception
      */
     @Test(expected = ArraySummaterException.class)
