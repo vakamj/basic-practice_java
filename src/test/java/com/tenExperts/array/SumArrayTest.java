@@ -6,7 +6,7 @@ import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
 
-public class SimpleSummaterTest {
+public class SumArrayTest {
     /**
      * sum array with elements
      * @throws ArraySummaterException exception
@@ -19,7 +19,6 @@ public class SimpleSummaterTest {
 
     /**
      * sum empty array
-     *
      * @throws ArraySummaterException exception
      */
     @Test(expected = ArraySummaterException.class)
