@@ -9,7 +9,6 @@ import static org.junit.Assert.assertEquals;
 public class SimpleSummaterTest {
     /**
      * sum array with elements
-     *
      * @throws ArraySummaterException exception
      */
     @Test
