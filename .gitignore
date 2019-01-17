@@ -1,0 +1,6 @@
+trash/
+.idea/
+target/
+*.class
+*.jar
+*.iml
